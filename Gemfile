@@ -11,3 +11,4 @@ gem 'guard-rspec', require: false
 gem 'simplecov-json', :require => false
 gem 'colorize'
 gem 'sinatra'
+gem 'json-rpc-client'
