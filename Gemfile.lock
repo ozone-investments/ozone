@@ -66,6 +66,9 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
+    simplecov-json (0.2)
+      json
+      simplecov
     sinatra (2.0.4)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -85,7 +88,7 @@ DEPENDENCIES
   inifile
   rerun
   rspec
-  simplecov
+  simplecov-json
   sinatra
 
 RUBY VERSION

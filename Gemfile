@@ -8,6 +8,6 @@ gem 'rerun'
 gem 'rspec'
 gem 'ffi'
 gem 'guard-rspec', require: false
-gem 'simplecov'
+gem 'simplecov-json', :require => false
 gem 'colorize'
 gem 'sinatra'
