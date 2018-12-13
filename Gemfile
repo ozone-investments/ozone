@@ -13,3 +13,4 @@ gem 'colorize'
 gem 'sinatra'
 gem 'json-rpc-client'
 gem 'rubocop', require: false
+gem 'gdbm'
