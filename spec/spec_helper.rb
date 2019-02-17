@@ -1,9 +1,7 @@
-require "rspec"
-require "simplecov"
-require 'simplecov-json'
+# frozen_string_literal: true
 
-SimpleCov.formatter = SimpleCov::Formatter::JSONFormatter
-SimpleCov.start
+require 'rspec'
+require 'simplecov'
 
 RSpec.configure do |config|
   config.fail_fast = true
@@ -18,6 +16,6 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 
-  config.default_formatter = "doc"
+  config.default_formatter = 'doc'
   config.order = :random
 end
